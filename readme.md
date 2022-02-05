@@ -4,6 +4,6 @@ Tile Frenzy aim trainer clone
 https://anton-kapelyushok.github.io/3d/
 
 
-![screenshot](https://github.com/anton-kapelyushok/aim-trainer/blob/master/image.jpg?raw=true)
+![screenshot](https://raw.githubusercontent.com/anton-kapelyushok/aim-trainer/master/screenshot.png)
 
 
