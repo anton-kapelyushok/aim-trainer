@@ -295,14 +295,16 @@ function shoot() {
 }
 
 function positionCube(cube) {
-    if (!cubes.length) {
-        return
-    }
+
     let newPositionIntersects = true
     const {mesh} = cube
     do {
         mesh.position.x = (Math.random() * 2 - 1) * (boxSize - cubeSize) / 2
         mesh.position.y = (Math.random() * 2 - 1) * (boxSize - cubeSize) / 2
+
+        if (!cubes.length) {
+            return
+        }
 
         for (let cube2 of cubes) {
             if (cube2 === cube) {
